@@ -1,0 +1,19 @@
+/* 1. Importação das fontes OBRIGATORIAMENTE nas primeiras linhas */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&display=swap');
+
+/* 2. Diretivas do Tailwind v3 */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 3. Configurações Globais */
+@layer base {
+  html {
+    scroll-behavior: smooth; 
+  }
+
+  body {
+    background-color: #F5F0E6; 
+    overflow-x: hidden; 
+  }
+}

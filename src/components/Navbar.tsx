@@ -1,3 +1,6 @@
+import React, { useState, useEffect } from 'react';
+import { Heart, Menu, X } from 'lucide-react';
+
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
@@ -20,12 +23,12 @@ const Navbar = () => {
   return (
     <nav className={`fixed w-full z-50 transition-all duration-300 ${scrolled ? 'bg-[#F5F0E6]/95 shadow-sm backdrop-blur-sm py-3' : 'bg-transparent py-5'}`}>
       <div className="max-w-6xl mx-auto px-6 md:px-12 flex justify-between items-center">
-        
+        {/* Logo/Iniciais */}
         <a href="#hero" className="font-serif text-2xl text-[#5A642F] font-semibold tracking-wider flex items-center gap-1">
           J <Heart className="w-4 h-4 text-[#C8A96A] fill-current" /> E
         </a>
 
-        
+        {/* Desktop Menu */}
         <div className="hidden md:flex gap-8 items-center">
           {navLinks.map((link) => (
             <a 
@@ -38,7 +41,7 @@ const Navbar = () => {
           ))}
         </div>
 
-        
+        {/* Mobile Menu Toggle */}
         <button 
           className="md:hidden text-[#5A642F]"
           onClick={() => setIsOpen(!isOpen)}
@@ -47,7 +50,7 @@ const Navbar = () => {
         </button>
       </div>
 
-      
+      {/* Mobile Menu Dropdown */}
       {isOpen && (
         <div className="md:hidden absolute top-full left-0 w-full bg-[#F5F0E6] shadow-lg py-6 px-6 flex flex-col gap-4 border-t border-[#9CA88D]/30">
           {navLinks.map((link) => (
@@ -65,3 +68,5 @@ const Navbar = () => {
     </nav>
   );
 };
+
+export default Navbar;
