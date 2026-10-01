@@ -16,7 +16,7 @@ const EventDetails = () => {
       line2: "Chegue com 30 min de antecedência"
     },
     {
-      icon: <MapPin className="w-8 h-8 text-[#C8A96A]" />,
+      icon: <a href="https://www.google.com/maps/place/Ch%C3%A1cara+Espa%C3%A7o+Pingo+de+Ouro/@-20.7374537,-49.3286176,13z/data=!4m6!3m5!1s0x94bc53f5ca4ddc85:0x26db2d69e37f0f4e!8m2!3d-20.7326397!4d-49.3140805!16s%2Fg%2F11fhssj9jz?entry=ttu&g_ep=EgoyMDI2MDkyOC4wIKXMDSoASAFQAw%3D%3D" target="_blank"><MapPin className="w-8 h-8 text-[#C8A96A]" /></a>,
       title: "Local",
       line1: "Chácara Pingo de Ouro",
       line2: "Vacinação de Talhado até o KM 45"

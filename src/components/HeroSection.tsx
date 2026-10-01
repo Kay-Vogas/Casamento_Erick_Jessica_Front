@@ -20,6 +20,9 @@ const Hero = () => {
             <span className="text-[#C8A96A] text-4xl md:text-6xl italic">&</span> Erick
           </h1>
           <p className="text-lg md:text-xl text-[#5A642F]/80 mb-10 max-w-md mx-auto md:mx-0 leading-relaxed">
+            Sua presença é o nosso maior presente. Venha celebrar o nosso amor e fazer parte desse dia inesquecível!
+          </p>
+          <p className="text-lg md:text-xl text-[#5A642F]/80 mb-10 max-w-md mx-auto md:mx-0 leading-relaxed">
             "Para que todos vejam, e saibam, e considerem, e juntamente entendam que a mão do SENHOR fez isso." (Isaías 41:20)
           </p>
           <a 
