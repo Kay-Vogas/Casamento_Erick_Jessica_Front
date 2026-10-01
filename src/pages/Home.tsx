@@ -1,8 +1,7 @@
-import React from 'react';
-// import GlobalStyles from '../components/GlobalStyles';
+ // import GlobalStyles from '../components/GlobalStyles';
 import Navbar from '../components/Navbar';
 import Hero from '../components/HeroSection';
-import Countdown from '../components/Countdown'; // NOVO IMPORT
+// import Countdown from '../components/Countdown'; // NOVO IMPORT
 import EventDetails from '../components/EventDetails';
 import ExtraDetails from '../components/ExtraDetails'; // NOVO IMPORT
 import RSVP from '../components/RSVP';

@@ -1,4 +1,3 @@
-import React from 'react';
 import { Gift, Sparkles } from 'lucide-react';
 
 const ExtraDetails = () => {
