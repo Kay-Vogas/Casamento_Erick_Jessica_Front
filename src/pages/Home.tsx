@@ -1,4 +1,4 @@
- // import GlobalStyles from '../components/GlobalStyles';
+ import GlobalStyles from '../components/GlobalStyles';
 import Navbar from '../components/Navbar';
 import Hero from '../components/HeroSection';
 // import Countdown from '../components/Countdown'; // NOVO IMPORT
@@ -10,7 +10,7 @@ import Footer from '../components/Footer';
 const Home = () => {
   return (
     <div className="min-h-screen">
-      {/* <GlobalStyles /> */}
+      <GlobalStyles />
       <Navbar />
       
       <main>

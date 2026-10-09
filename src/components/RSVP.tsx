@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Heart } from 'lucide-react';
 import RSVPModal from './ModalConfirmacao'; // Importando o modal
+import { Link } from 'react-router-dom';
 
 const RSVP = () => {
   // Estado para controlar a abertura do modal
@@ -19,12 +20,10 @@ const RSVP = () => {
         <div className="max-w-3xl mx-auto relative z-10 text-center bg-white/60 backdrop-blur-md p-10 md:p-16 rounded-[3rem] border border-white shadow-xl">
           <Heart className="w-12 h-12 text-[#BB6249] mx-auto mb-6 fill-current opacity-20 absolute top-10 left-1/2 -translate-x-1/2" />
           
-          <h2 className="font-serif text-4xl md:text-5xl text-[#5A642F] mb-6 relative z-10">
-            Confirme sua Presença
-          </h2>
           
           <p className="text-lg text-[#5A642F]/80 mb-10 max-w-xl mx-auto leading-relaxed">
             Sua presença é o nosso maior presente. Por favor, confirme se poderá comparecer ao nosso casamento até o dia 06 de Janeiro de 2027.
+          
           </p>
 
           <button 

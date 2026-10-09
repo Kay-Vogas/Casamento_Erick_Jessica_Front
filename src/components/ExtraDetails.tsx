@@ -1,4 +1,5 @@
 import { Gift, Sparkles } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const ExtraDetails = () => {
   return (
@@ -30,12 +31,12 @@ const ExtraDetails = () => {
           <p className="text-[#5A642F]/80 leading-relaxed mb-6">
             Nossa maior alegria é a sua presença! Mas, se desejar nos presentear para ajudar na construção do nosso novo lar, preparamos uma lista com muito carinho.
           </p>
-          <button 
-            onClick={() => alert("Redirecionaria para o site de presentes (ex: iCasei, Casar.com)")}
-            className="inline-block border-2 border-[#BB6249] text-[#BB6249] hover:bg-[#BB6249] hover:text-white font-bold py-3 px-8 rounded-full transition-colors duration-300 uppercase tracking-wide text-sm"
+          <Link 
+            to="/presentes"
+            className="inline-block border-2 border-[#BB6249] text-[#BB6249] hover:bg-[#BB6249] hover:text-white font-bold py-3 px-8 rounded-full transition-colors duration-300 uppercase tracking-wide text-sm text-center"
           >
-            Ver Lista de Presentes
-          </button>
+          Ver Presentes 
+          </Link>
         </div>
 
       </div>
