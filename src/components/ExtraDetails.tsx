@@ -32,7 +32,7 @@ const ExtraDetails = () => {
             Nossa maior alegria é a sua presença! Mas, se desejar nos presentear para ajudar na construção do nosso novo lar, preparamos uma lista com muito carinho.
           </p>
           <Link 
-            to="/presentes"
+            to="https://sites.icasei.com.br/erickejessica/pages/38963028"
             className="inline-block border-2 border-[#BB6249] text-[#BB6249] hover:bg-[#BB6249] hover:text-white font-bold py-3 px-8 rounded-full transition-colors duration-300 uppercase tracking-wide text-sm text-center"
           >
           Ver Presentes 

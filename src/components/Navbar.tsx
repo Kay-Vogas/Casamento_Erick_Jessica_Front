@@ -25,7 +25,7 @@ const Navbar = () => {
       <div className="max-w-6xl mx-auto px-6 md:px-12 flex justify-between items-center">
         {/* Logo/Iniciais */}
         <a href="#hero" className="font-serif text-2xl text-[#5A642F] font-semibold tracking-wider flex items-center gap-1">
-          J <Heart className="w-4 h-4 text-[#C8A96A] fill-current" /> E
+          E <Heart className="w-4 h-4 text-[#C8A96A] fill-current" /> J
         </a>
 
         {/* Desktop Menu */}
