@@ -56,8 +56,8 @@ const RSVPModal: React.FC<RSVPModalProps> = ({ isOpen, onClose }) => {
   const [candidatos, setCandidatos] = useState<Candidato[] | null>(null);
 
   const inputRef = useRef<HTMLInputElement>(null);
-  const redirectTimer = useRef<ReturnType<typeof setTimeout>>();
-
+  const redirectTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
+  
   const isSuccess = nomeConfirmado !== null;
 
   const handleClose = () => {
@@ -104,7 +104,13 @@ const RSVPModal: React.FC<RSVPModalProps> = ({ isOpen, onClose }) => {
   }, [isOpen, erro, nomeConfirmado, candidatos]);
 
   // Evita redirecionar depois de desmontar
-  useEffect(() => () => clearTimeout(redirectTimer.current), []);
+  useEffect(() => {
+  return () => {
+    if (redirectTimer.current !== null) {
+      clearTimeout(redirectTimer.current);
+    }
+  };
+  }, []);
 
   // Se o modal não estiver aberto, não renderiza nada
   if (!isOpen) return null;

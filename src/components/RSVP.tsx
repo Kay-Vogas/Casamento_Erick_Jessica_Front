@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { Heart } from "lucide-react";
 import RSVPModal from "./ModalConfirmacao"; // Importando o modal
-import { Link } from "react-router-dom";
 
 const RSVP = () => {
   // Estado para controlar a abertura do modal
