@@ -29,8 +29,7 @@ interface RespostaConfirmacao {
   convidado: { nome: string };
 }
 
-const API_URL = import.meta.env.VITE_API_URL ?? 'http://localhost:3333';
-const LISTA_PRESENTES_URL =
+const API_URL = import.meta.env.VITE_API_URL ?? 'https://casamento-erick-jessica-back.onrender.com';
   'https://sites.icasei.com.br/erickejessica/pages/38963028';
 const REDIRECT_DELAY_MS = 3000;
 const REQUEST_TIMEOUT_MS = 15000;
