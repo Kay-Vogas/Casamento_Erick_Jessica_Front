@@ -37,7 +37,7 @@ const Hero = () => {
           {/* Moldura estilo arco */}
           <div className="relative aspect-[3/4] w-full rounded-t-full rounded-b-3xl overflow-hidden border-8 border-white shadow-2xl">
             <img 
-              src="./src/assets/Erick_e_Jessica.jpg" 
+              src="./public/Erick_e_Jessica.jpg" 
               alt="Casal apaixonado" 
               className="object-cover w-full h-full hover:scale-105 transition-transform duration-700"
             />
