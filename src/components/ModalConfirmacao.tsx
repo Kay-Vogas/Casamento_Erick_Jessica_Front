@@ -122,7 +122,10 @@ const RSVPModal: React.FC<RSVPModalProps> = ({ isOpen, onClose }) => {
     try {
       const response = await fetch(`${API_URL}/convidados/confirmar`, {
         method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
+        headers: { 
+          'Content-Type': 'application/json' ,
+          'X-API-Key': 'kaykedev-teste'
+        },
         body: JSON.stringify({ nome: nomeConvidado, familia }),
         signal: AbortSignal.timeout(REQUEST_TIMEOUT_MS),
       });
