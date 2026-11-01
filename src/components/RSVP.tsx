@@ -22,8 +22,7 @@ const RSVP = () => {
 
           {/* Texto principal */}
           <p className="text-lg text-[#5A642F]/80 mb-10 max-w-xl w-full mx-auto leading-relaxed text-center">
-            Sua presença é o nosso maior presente. Por favor, confirme se poderá
-            comparecer ao nosso casamento até o dia 06 de Fevereiro de 2027.
+            Sua presença é o nosso maior presente. Será uma alegria compartilhar com você esse momento tão especial e celebrar o amor que nos une, tornando esse dia ainda mais inesquecível.
           </p>
 
           {/* Botão centralizado */}
@@ -35,7 +34,7 @@ const RSVP = () => {
           </button>
 
           {/* Texto de confirmação */}
-          <p className="text-lg text-[#5A642F]/80 mt-6 max-w-xl w-full mx-auto leading-relaxed text-center">
+          <p className="text-lg font-bold text-[#5A642F]/80 mt-6 max-w-xl w-full mx-auto leading-relaxed text-center">
             É obrigatória a confirmação de sua presença até o dia 15 de Dezembro
             de 2026.
           </p>

@@ -373,7 +373,7 @@ const RSVPModal: React.FC<RSVPModalProps> = ({ isOpen, onClose }) => {
                   value={nome}
                   onChange={(e) => setNome(e.target.value)}
                   className="w-full px-4 py-3 rounded-xl border border-[#9CA88D]/40 bg-white text-[#5A642F] placeholder:text-[#9CA88D]/70 focus:outline-none focus:ring-2 focus:ring-[#C8A96A] transition-shadow"
-                  placeholder="Ex: João da Silva"
+                  placeholder="Ex: João e Maria"
                 />
               </div>
 
