@@ -359,7 +359,7 @@ const RSVPModal: React.FC<RSVPModalProps> = ({ isOpen, onClose }) => {
                   htmlFor="rsvp-nome"
                   className="block text-sm font-bold text-[#5A642F] mb-2"
                 >
-                  Nome completo
+                  Nome 
                 </label>
                 <input
                   id="rsvp-nome"
