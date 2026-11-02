@@ -350,7 +350,7 @@ const RSVPModal: React.FC<RSVPModalProps> = ({ isOpen, onClose }) => {
               Confirme sua presença
             </h3>
             <p className="text-[#5A642F]/70 text-sm mb-6">
-              Digite seu nome completo, como está no convite.
+              Digite seu primeiro nome, como está no convite.
             </p>
 
             <form onSubmit={handleSubmit} className="flex flex-col gap-4">
@@ -373,7 +373,7 @@ const RSVPModal: React.FC<RSVPModalProps> = ({ isOpen, onClose }) => {
                   value={nome}
                   onChange={(e) => setNome(e.target.value)}
                   className="w-full px-4 py-3 rounded-xl border border-[#9CA88D]/40 bg-white text-[#5A642F] placeholder:text-[#9CA88D]/70 focus:outline-none focus:ring-2 focus:ring-[#C8A96A] transition-shadow"
-                  placeholder="Ex: João e Maria"
+                  placeholder="Ex: João"
                 />
               </div>
 
